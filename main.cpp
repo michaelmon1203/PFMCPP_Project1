@@ -52,97 +52,98 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        amplitude
+//  action 1:    the amplitude mutes
+amplitude.mute();
+//  action 2:    the amplitude opens
+amplitude.open();
+//  action 3:    the amplitude increases
+amplitude.increase();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        cutoffFreq
+//  action 1:    the cutoffFreq increases
+cutoffFreq.increase();
+//  action 2:    the cutoffFreq decreases
+cutoffFreq.decrease();
+//  action 3:    the cutoffFreq is set to certain value
+cutoffFreq.set();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        kid
+//  action 1:    kid screams
+kid.scream();
+//  action 2:    kid runs
+kid.run();
+//  action 3:    kid paints
+kid.paint();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        cow
+//  action 1:    cow eats grass
+cow.eatGrass();
+//  action 2:    cow walks
+cow.walk();
+//  action 3:    cow swings tail
+cow.swingTail();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        musician
+//  action 1:    musician plays guitar
+musician.playGuitar();
+//  action 2:    musician changes guitar strings
+musician.changeGuitarStrings();
+//  action 3:    musician tunes guitar strings
+musician.tuneGuitarStrings();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        audience
+//  action 1:    audience watch something
+audience.watch();
+//  action 2:    audience aplaud something
+audience.aplaud();
+//  action 3:    audience dislike something
+audience.dislike();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        string
+//  action 1:    string vibrates
+string.vibrate();
+//  action 2:    string rings
+string.ring();
+//  action 3:    string breaks
+string.break();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        volume knob
+//  action 1:    volume knob turns clockwise
+volumeKnob.turnClockwise();
+//  action 2:    volume knob turns counter-clockwise
+volumeKnob.turnCounterClockwise();
+//  action 3:    volume knob stays
+volumeKnob.stay();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:        laptop
+//  action 1:    laptop makes sound
+laptop.makeSound();
+//  action 2:    laptop runs software
+laptop.runSoftware();
+//  action 3:    laptop drains battery
+laptop.drainBattery();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun:        sampler
+//  action 1:    sampler samples
+sampler.sample();
+//  action 2:    sampler plays sample
+sampler.playSampler();
+//  action 3:    sampler changes input channel
+sampler.changeInputChannel();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
-    Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+ 
+ If you didn't already:
+	Make a pull request after you make your first commit
+	pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +151,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+	std::cout << "good to go" << std::endl;
+	return 0;
 }
