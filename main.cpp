@@ -100,13 +100,13 @@ audience.aplaud();
 //  action 3:    audience dislike something
 audience.dislike();
 //  7)
-//  Noun:        string
-//  action 1:    string vibrates
-string.vibrate();
-//  action 2:    string rings
-string.ring();
-//  action 3:    string breaks
-string.break();
+//  Noun:        guitar tab
+//  action 1:    guitar tab scrolls Up
+guitarTab.scrollUp();
+//  action 2:    guitar tab scrolls down
+guitarTab.scrollDown();
+//  action 3:    guitar tab starts over
+guitarTab.startOver();
 //  8)
 //  Noun:        volume knob
 //  action 1:    volume knob turns clockwise
